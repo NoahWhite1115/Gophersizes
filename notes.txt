@@ -1,0 +1,7 @@
+/*
+    To learn:
+    go routines
+    labels (for loops?)
+    channels
+    -> syntax
+*/
