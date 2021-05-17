@@ -13,7 +13,8 @@ func main() {
 }
 
 func hashMapPalPerm(input1 string) (bool){
-	arr := make([]int, 128) //assuming ascii (in reality this should be letters only, so size 26)
+	arr := make([]int, 128) 
+	//assuming ascii (in reality this should be letters only, so size 26, and then we have a fun mapping fn that converts them)
 
 	for _, runeval := range input1{
 		arr[runeval] += 1
